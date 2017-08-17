@@ -1,6 +1,6 @@
 ofxWiggleStereoscopy
 =====================================
-![gif](https://media.giphy.com/media/l41JK51Nu9kGO96jS/giphy.gif)
+![gif](https://github.com/JotaroS/ofxWiggleStereoscopy/blob/media/media/wiggle.gif)
 
 
 Introduction
