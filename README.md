@@ -1,5 +1,7 @@
 ofxWiggleStereoscopy
 =====================================
+![gif](https://media.giphy.com/media/l41JK51Nu9kGO96jS/giphy.gif)
+
 
 Introduction
 ------------
