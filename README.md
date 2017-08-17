@@ -1,5 +1,8 @@
 ofxWiggleStereoscopy
 =====================================
+
+![](https://travis-ci.org/JotaroS/ofxWiggleStereoscopy.svg?branch=master)
+
 ![gif](https://github.com/JotaroS/ofxWiggleStereoscopy/blob/media/media/wiggle.gif)
 
 
