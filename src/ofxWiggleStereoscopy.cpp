@@ -39,13 +39,6 @@ ofxWiggleStereoscopy::ofxWiggleStereoscopy()
 }
 
 //--------------------------------------------------------------
-void ofxWiggleStereoscopy::update()
-{
-    // update wiggle value (based on sine curve)
-    wiggle_val = wiggleAmnt * sin(ofGetFrameNum() / 4.0f);
-}
-
-//--------------------------------------------------------------
 void ofxWiggleStereoscopy::update(const ofVec2f &_wiggle)
 {
     // update wiggle value (based on sine curve)
@@ -65,7 +58,7 @@ void ofxWiggleStereoscopy::draw(int x, int y, int w, int h)
     shader.setUniform2f("mapDimentions", w, h);
     shader.setUniformTexture("src", image.getTexture(), 1);
     shader.setUniformTexture("displacementMap", depth.getTexture(), 2); // depthmap
-    shader.setUniform1f("focus", 0.5);                                  // fixtation point [0,1]
+    shader.setUniform1f("focus", focus);                                  // fixtation point [0,1]
     shader.setUniform1f("scale", 1.0f);
     shader.setUniform2f("offset", wiggle);
     shader.setUniform1f("alpha", 1.0);
@@ -87,7 +80,7 @@ void ofxWiggleStereoscopy::draw(int x, int y)
     shader.setUniform2f("mapDimentions", w, h);
     shader.setUniformTexture("src", image.getTexture(), 1);
     shader.setUniformTexture("displacementMap", depth.getTexture(), 2); // depthmap
-    shader.setUniform1f("focus", 0.5);                                  // fixtation point [0,1]
+    shader.setUniform1f("focus", focus);                                  // fixtation point [0,1]
     shader.setUniform1f("scale", 1.0f);
     shader.setUniform2f("offset", wiggle);
     shader.setUniform1f("alpha", 1.0);

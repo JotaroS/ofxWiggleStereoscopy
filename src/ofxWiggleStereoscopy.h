@@ -31,9 +31,6 @@ class ofxWiggleStereoscopy
     ofImage depth;
 
     float focus = 0.5f;
-    float wiggleAmnt = 300.0f;
-    bool showGui = true;
-    float wiggle_val = 0.0f;
     //constructor
     ofxWiggleStereoscopy();
     ofxWiggleStereoscopy(string image, string depth);

@@ -9,8 +9,8 @@ void ofApp::setup()
 //--------------------------------------------------------------
 void ofApp::update()
 {
-    float x = 300 * cos(ofGetFrameNum() / 4.0f);
-    float y = 300 * sin(ofGetFrameNum() / 4.0f);
+    float x = 10 * cos(ofGetFrameNum() / 4.0f);
+    float y = 10 * sin(ofGetFrameNum() / 4.0f);
     wiggle->update(ofVec2f(x, y));
 }
 
