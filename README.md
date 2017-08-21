@@ -8,7 +8,7 @@ ofxWiggleStereoscopy
 
 Introduction
 ------------
-Gives 3d effect on image with depthmap
+Gives 3d effect on image with its depthmap.
 
 License
 -------
@@ -16,17 +16,21 @@ MIT License
 
 Installation
 ------------
-Just place this on your `addons` folder
+Just place this on your `addons` folder.
+
+```
+git clone https://github.com/JotaroS/ofxWiggleStereoscopy/
+```
+
+You should then have a pair of image and its depth map in grayscale.
 
 
 Compatibility
 ------------
-v0.9.8
-GL2 environment
+built in oF v0.9.8
 
-Known issues
+Worked on GL2 environment.
+
+Thanks to
 ------------
-Wiggle parameters not yet implemented. Coming really soon.
-
-
-
+[Depthy (Provided in MIT license)](https://github.com/panrafal/depthy) project gave me a lot of hint for the shader.
