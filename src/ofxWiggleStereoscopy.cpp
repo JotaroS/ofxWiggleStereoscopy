@@ -1,6 +1,5 @@
 //
 //  ofxWiggleStereoscopy.cpp
-//  myWiggleStereoscopyTest
 //
 //  Created by jotaro on 2017/08/15.
 //
